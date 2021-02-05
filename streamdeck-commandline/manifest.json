@@ -1,0 +1,36 @@
+{
+  "Author": "Mike Powell",
+  "Name": "streamdeck-commandline",
+  "Description": "Executes an arbitrary Windows command line",
+  "Icon": "Images/plugin",
+  "URL": "https://github.com/mikepowell/streamdeck-commandline",
+  "Version": "1.0",
+  "CodePath": "streamdeck_commandline",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.9"
+  },
+  "Actions": [
+    {
+      "Icon": "Images/action",
+      "Name": "Command Line",
+      "States": [
+        {
+          "Image": "Images/plugin",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Executes an arbitrary Windows command line.",
+      "UUID": "com.springhillsoftware.commandline",
+      "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html"
+    }
+  ]
+}

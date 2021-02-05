@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>streamdeck_commandline Settings</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdpi.css">
+    <script src="https://cdn.jsdelivr.net/gh/barraider/streamdeck-easypi@latest/src/sdtools.common.js"></script>
+    <script src="PluginActionPI.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <div class="sdpi-item" id="dvOutputFileName">
+            <div class="sdpi-item-label">File Name:</div>
+            <input class="sdpi-item-value sdProperty" placeholder="c:\mycounter.txt" value="" id="outputFileName">
+        </div>
+        <div class="sdpi-item" id="dvSave">
+            <div class="sdpi-item-label">Save File Name</div>
+            <button class="sdpi-item-value max20" onclick="setSettings()">Save</button>
+            <p>Click here after setting the file name</p>
+        </div>
+        <div class="sdpi-item" id="dvTitlePrefix">
+            <div class="sdpi-item-label">Input Text</div>
+            <input class="sdpi-item-value sdProperty" placeholder="" value="" id="inputString" oninput="setSettings()">
+        </div>
+    </div>
+</body>
+</html>
