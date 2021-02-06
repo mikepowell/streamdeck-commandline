@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4635D874-69C0-4010-BE46-77EF92EB1553}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>streamdeck_commandline</RootNamespace>
+    <RootNamespace>StreamDeckCommandLine</RootNamespace>
     <AssemblyName>streamdeck-commandline</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\streamdeck_commandline.sdPlugin\</OutputPath>
+    <OutputPath>bin\Debug\com.springhillsoftware.commandline.sdPlugin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -27,7 +27,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\streamdeck_commandline.sdPlugin\</OutputPath>
+    <OutputPath>bin\Release\com.springhillsoftware.commandline.sdPlugin\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -79,11 +79,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\action%402x.png" />
-    <Content Include="Images\action.png" />
-    <Content Include="Images\plugin%402x.png" />
-    <Content Include="Images\plugin.png" />
-    <Content Include="Images\terminal-full.png" />
+    <Content Include="Images\action%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\action.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\plugin%402x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\plugin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\terminal-full.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="PropertyInspector\PluginActionPI.html">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

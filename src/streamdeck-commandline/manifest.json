@@ -1,11 +1,11 @@
 {
   "Author": "Mike Powell",
-  "Name": "streamdeck-commandline",
+  "Name": "Command Line",
   "Description": "Executes an arbitrary Windows command line",
   "Icon": "Images/plugin",
   "URL": "https://github.com/mikepowell/streamdeck-commandline",
   "Version": "1.0",
-  "CodePath": "streamdeck_commandline",
+  "CodePathWin": "streamdeck-commandline.exe",
   "OS": [
     {
       "Platform": "windows",

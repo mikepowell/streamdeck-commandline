@@ -2,7 +2,7 @@
 using BarRaider.SdTools;
 using System.Threading;
 
-namespace streamdeck_commandline
+namespace StreamDeckCommandLine
 {
     internal class Program
     {
