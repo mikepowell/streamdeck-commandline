@@ -4,7 +4,7 @@
   "Description": "Executes an arbitrary Windows command line",
   "Icon": "Images/plugin",
   "URL": "https://github.com/mikepowell/streamdeck-commandline",
-  "Version": "1.0",
+  "Version": "1.1",
   "CodePathWin": "streamdeck-commandline.exe",
   "OS": [
     {
