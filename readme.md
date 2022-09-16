@@ -12,7 +12,7 @@ Execute an arbitrary Windows command line from the Elgato Stream Deck.
   already open, and load the plugin.
 
 
-## Dependencies
+## Acknowledgements
 
 Thanks to [Barraider](https://barraider.com) for making these tools available!
 
